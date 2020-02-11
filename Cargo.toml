@@ -1,0 +1,26 @@
+[package]
+name = "Projekt_2048"
+version = "0.1.0"
+authors = ["KamilFCB <kamil_opole@interia.eu>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gdk = "^0"
+atk = "^0"
+glib-sys = "^0"
+gobject-sys = "^0"
+glib = "^0"
+gdk-pixbuf = "^0"
+once_cell = "^0"
+pango = "^0"
+rand = "^0"
+
+[dependencies.gtk]
+version = "0.8.0"
+features = ["v3_16"]
+
+[dependencies.gio]
+version = ""
+features = ["v2_44"]
